@@ -1,0 +1,6 @@
+pandas==1.2.5
+numpy==1.20.2
+dash==1.19.0
+plotly==4.14.3
+matplotlib==3.3.4
+scikit-learn==0.24.2
