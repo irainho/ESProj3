@@ -111,7 +111,10 @@ def order_by_cons(df):
     df.sort_values(by=['Consumption'], inplace=True, ascending=True)
     return df
 
+
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets, suppress_callback_exceptions=True)
+server = app.server
+
 
 # create main layout
 app.layout = html.Div([
